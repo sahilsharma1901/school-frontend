@@ -1,0 +1,39 @@
+.dashboardContainer{
+    width: 80%;
+    height: 80vh;
+    margin: 3rem auto;
+    display: flex;
+}
+
+.sideBar{
+    width: 20%;
+    border: 1px solid #c4bebe;
+    border-radius: 10px;
+    background-color: #ace;
+    overflow: hidden;
+}
+
+.sideBar a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: .75rem 0;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.sideBar a:hover{
+    background: #237f96;
+}
+
+.infoContainer{
+    width: 80%;
+    border: 1px solid #c4bebe;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.active{
+    background-color: #237f96;
+}

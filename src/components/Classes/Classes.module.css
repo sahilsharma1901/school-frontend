@@ -1,0 +1,30 @@
+.classesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.classesContainer h2{
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.singleClassContainer{
+    margin: 4rem 1rem;
+    width: 30%;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px #cccccc;
+    padding: 3rem;
+    text-align: center;
+}
+
+.singleClassContainer a{
+    display: block;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    color: white;
+    background-color: #237f96;
+    text-decoration: none;
+}

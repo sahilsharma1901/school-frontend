@@ -1,0 +1,34 @@
+.container{
+  width: 100%;
+  background-color: #ECF0F1;
+}
+
+.wrapper {
+  margin: 4rem auto;
+  width: 100%;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+}
+table caption {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.35em;
+}
+
+table tr {
+  height: 2rem;
+}
+
+table td, table th {
+  text-align: center;
+  background: #FAFAFA;
+}
+
+table th {
+  font-weight: 700;
+}
